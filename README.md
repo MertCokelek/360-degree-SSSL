@@ -15,9 +15,17 @@ python3 -m pip install -r requirements.txt
 ```
 octave -W  MCSR/Main.m
 ```
-## Salient Spatial Sound Localization
+## Produce saliency-time curves for each channel
 ```
 python3 ambisonic_saliency/main.py <<path containing *_saliency.mat>> <<output path>> 
+```
+
+## Get Audio Saliency Maps
+```
 python3 uv_visualization/fixmap2salmap.py -i ambisonic_saliency_predictions/pred_<<video name>> -o <<folder containing videos/video name/>> -r <<output height x width>>
+```
+
+## (Optional) Fuse with existing (audio-)visual saliency model predictions
+```
 python3 fusion.py
 ```
