@@ -1,0 +1,9 @@
+imageio==2.9.0
+imageio-ffmpeg==0.4.2
+numpy
+opencv-python
+pandas
+Pillow==8.0.1
+py360convert==0.1.0
+pyparsing==2.4.6
+scipy
