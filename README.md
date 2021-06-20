@@ -20,5 +20,4 @@ octave -W  MCSR/Main.m
 python3 ambisonic_saliency/main.py <<path containing *_saliency.mat>> <<output path>> 
 python3 uv_visualization/fixmap2salmap.py -i ambisonic_saliency_predictions/pred_<<video name>> -o <<folder containing videos/video name/>> -r <<output height x width>>
 python3 fusion.py
-
 ```
