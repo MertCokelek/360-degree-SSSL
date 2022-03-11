@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+# Leveraging Frequency Based Salient Spatial Sound Localization to Improve 360° Video Saliency Prediction
+### 2021, 17th International Conference on Machine Vision and Applications
+[Mert Cokelek](https://scholar.google.com/citations?user=wTsdq_cAAAAJ&hl=en), [Nevrez Imamoglu](https://scholar.google.com/citations?user=VJgx61MAAAAJ&hl=en), [Cagri Ozcinar](https://scholar.google.com/citations?user=KHuC72wAAAAJ&hl=en), [Erkut Erdem](https://scholar.google.com/citations?user=eALwl74AAAAJ&hl=en), [Aykut Erdem](https://scholar.google.com/citations?user=-xA1_OAAAAAJ&hl=en)
 
-You can use the [editor on GitHub](https://github.com/MertCokelek/360-degree-SSSL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## **Overview**
+Virtual and augmented reality (VR/AR) systems dramatically gained in popularity with various application areas such as gaming, social media, and communication. It is therefore a crucial task to have the knowhow to efficiently utilize, store or deliver 360◦ videos for end-users. Towards this aim, researchers have been developing deep neural network models for 360◦ multimedia processing and computer vision fields. In this line of work, an important research direction is to build models that can learn and predict the observers’ attention on 360◦ videos to obtain so-called saliency maps computationally. Although there are a few saliency models proposed for this purpose, these models generally consider only visual cues in video frames by neglecting audio cues from sound sources. In this study, an unsupervised frequency-based saliency model is presented for predicting the strength and location of saliency in spatial audio. The prediction of salient audio cues is then used as audio bias on the video saliency predictions of state-of-the-art models. Our experiments yield promising results and show that integrating the proposed spatial audio bias into the existing video saliency models consistently improves their performance.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MertCokelek/360-degree-SSSL/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+http://www.mva-org.jp/Proceedings/2021/papers/O1-3-4.pdf
