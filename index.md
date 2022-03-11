@@ -15,16 +15,14 @@ Virtual and augmented reality (VR/AR) systems dramatically gained in popularity 
 
 Please cite our work if you find it helpful for your research:
 
-    @INPROCEEDINGS{9511406,
+    @inproceedings{cokelek2021leveraging,
+      title={Leveraging Frequency Based Salient Spatial Sound Localization to Improve 360° Video Saliency Prediction},
       author={Cokelek, Mert and Imamoglu, Nevrez and Ozcinar, Cagri and Erdem, Erkut and Erdem, Aykut},
-      booktitle={2021 17th International Conference on Machine Vision and Applications (MVA)}, 
-      title={Leveraging Frequency Based Salient Spatial Sound Localization to Improve 360° Video Saliency Prediction}, 
+      booktitle={2021 17th International Conference on Machine Vision and Applications (MVA)},
+      pages={1--5},
       year={2021},
-      volume={},
-      number={},
-      pages={1-5},
-      doi={10.23919/MVA51890.2021.9511406}}
-
+      organization={IEEE}
+    }
 
 
 ## **Acknowledgements**
