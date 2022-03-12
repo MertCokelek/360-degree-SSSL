@@ -1,5 +1,5 @@
 # 360-degree-SSSL
-This repository is the official implementation of the MVA2021 paper: [Leveraging Frequency Based Salient Spatial Sound Localization to Improve 360◦ Video Saliency Prediction](https://fermatslibrary.com/p/fd105fae). 
+This repository is the official implementation of the MVA2021 paper: [Leveraging Frequency Based Salient Spatial Sound Localization to Improve 360◦ Video Saliency Prediction](http://www.mva-org.jp/Proceedings/2021/papers/O1-3-4.pdf). 
 
 ## Dependencies
 1. **GNU Octave-5.2.0**
